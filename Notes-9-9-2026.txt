@@ -1,0 +1,52 @@
+=================================
+       SYSTEM HEALTH REPORT 
+=================================
+
+Hostname: mohammed-ehsan
+Date: Wed Sep  9 07:43:56 PM IST 2026
+
+-------- SYSTEM --------
+Uptime: 6 hours 6 minutes
+Load Average: 0.51, 0.40, 0.4
+Logged-in Users: 1
+
+-------- MEMORY --------
+Total RAM: 2.6 GB
+Used RAM: 1.2 GB
+Free RAM: 274 MB
+Available RAM: 1.4 GB
+Swap: total - 3.8 GB, used - 630 MB, free - 3.2 GB
+
+-------- CPU --------
+CPU Utilization: 15%
+Top CPU Process:
+gnome-s+
+gsd-hou+
+ptyxis
+kworker+
+systemd
+chrome
+
+-------- DISK --------
+Filesystem: /dev/sda2
+Disk Utilization: 58%
+Largest Directory: /
+
+-------- PROCESSES --------
+Top CPU Process: chrome 8801
+Top Memory Process: chrome
+PID: 8801
+Threads: 38
+
+-------- PACKAGE --------
+Package Manager: apt
+Nginx Version: nginx version: nginx/1.28.3 (Ubuntu)
+
+-------- CONCLUSION --------
+Is the server healthy?
+Yes, the server appears healthy.
+CPU utilization is low (15%).
+Memory availability is sufficient (1.4 GB available).
+Disk utilization is moderate (58%).
+Load average is low (0.51, 0.40, 0.40).
+No critical CPU, memory, or disk issues were observed.

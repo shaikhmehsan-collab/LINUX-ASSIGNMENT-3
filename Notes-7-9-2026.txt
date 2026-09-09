@@ -1,0 +1,21 @@
+What is the total CPU utilization?
+22.2% as CPU utilization is 100 - 77.8 as 77.8 is ideal CPU
+
+Which process is consuming the most CPU?
+ptyxis - 8.3%
+
+Which process is consuming the most memory?
+ptyxis - 11.2%
+
+What is the meaning of %us, %sy, %id, %wa?
+%us = CPU used by user applications
+%sy = CPU used by Linux kernel/system
+%id = CPU idle time
+%wa = CPU waiting for disk I/O operation
+
+What is the difference between top -n 3 and top -d 5?
+top -n 3 - Runs for 3 refresh cycles and exits.
+top -d 5 - Refreshes every 5 seconds continuously.
+
+Why would top -b be useful in scripts?
+top -b runs in batch (non-interactive) mode, making it suitable for scripts, log collection, and saving output to files.
